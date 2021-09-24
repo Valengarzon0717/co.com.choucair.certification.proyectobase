@@ -6,13 +6,13 @@ Feature: Academy Choucair
   Scenario: Search for a automation course
     Given that Miguel to learn automation at the academy choucair
    | starUser | strPassword |
-   | <starUser> | <strPassword> |
+   | <1088349554> | <Choucair2021*> |
     When he search for the course on the choucair academy platform
   | strCourse |
-  | <strCourse> |
+  | <Recursos Automatización Bancolombia> |
     Then he finds the course called resources
   | strCourse |
-  | <strCourse>|
+  | <Recursos Automatización Bancolombia>|
 
     Examples:
       | starUser | strPassword | strCourse |
